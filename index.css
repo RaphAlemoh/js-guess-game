@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+header,
+main {
+    text-align: center;
+}
+
+.number {
+    font-size: 6rem;
+    width: 3rem;
+    margin: 1rem auto;
+    border: 1px solid #333;
+    border-radius: 0.25rem;
+}
+
+.between {
+    margin-bottom: 1rem;
+}
+
+.left,
+.right {
+    margin-top: 1rem;
+}
+
+.label-score,
+.label-highscore {
+    font-size: 1.2rem;
+}

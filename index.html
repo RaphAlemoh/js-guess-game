@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <title>Javascript Guess Number Game!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header class="my-4">
+        <h1>Guess A Random Number!</h1>
+        <p class="between">Between 1 and 100</p>
+        <button class="btn btn-primary again">Reset!</button>
+        <div class="number bg-secondary text-white rounded">?</div>
+    </header>
+    <main class="container">
+        <div class="row">
+            <section class="col-md-6 left">
+                <input type="number" class="form-control guess mb-2" placeholder="Enter your guess" />
+                <button class="btn btn-success check">Check!</button>
+            </section>
+            <section class="col-md-6 right">
+                <p class="message">Start guessing...</p> <br>
+                
+                <p class="label-score">Score: <span class="score">10</span></p> <br>
+
+                <p class="label-highscore">Highscore: <span class="highscore">0</span></p> <br>
+
+                <p class="label-attempts">Number of attempts: <span class="attemptscount">0</span></p> <br>
+
+            </section>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
