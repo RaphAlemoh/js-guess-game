@@ -23,6 +23,19 @@ Launch the the `index.html` file in any web browser to play the guess game.
 6. If you guess the number correctly within 5 attempts, the message "Yes, You got the Correct Random Number! in X attempts" will be displayed, where X is the number of attempts you took.
 7. If you run out of attempts without guessing the number correctly, the message "You lost the game!. You failed to guess a number in 5 attempts. The secret number generated randomly by the app will be displayed.
 
+# Demo 
+
+- Landing Page presented to the user
+![alt text](image.png)
+
+- Exhausted 5 trials
+
+![alt text](image-1.png)
+
+- Correct Guess
+![alt text](image-2.png)
+
+
 ## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
 

@@ -1,7 +1,7 @@
 'use strict';
 
 let secretNumber = Math.trunc(Math.random() * 100) + 1;
-// console.log(secretNumber);
+console.log(secretNumber);
 
 let score = 100;
 let highscore = 0;
@@ -61,8 +61,10 @@ document.querySelector('.check').addEventListener('click', function () {
             score--;
             updateScore(score);
             userAttempts++;
+            countAttempt.textContent = userAttempts;
         } else {
             document.querySelector('body').style.backgroundColor = redColorPage;
+            hiddenNumber.textContent = secretNumber;
             displayMessage('You lost the game! You failed to guess a number in 5 attempts');
             updateScore(0);
         }
